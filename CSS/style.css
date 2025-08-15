@@ -1,4 +1,11 @@
-h1{color: orangered; font-size: 40px; text-align: center;}
+h1{ color: whitesmoke;
+    width: 450px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    background-color: orangered;
+    border: 5px solid whitesmoke;
+}
 
 .project{
     border: 10px solid whitesmoke;
