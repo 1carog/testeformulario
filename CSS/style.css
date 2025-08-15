@@ -3,8 +3,8 @@ h1{ color: whitesmoke;
     margin: auto;
     font-size: 40px;
     text-align: center;
-    background-color: orangered;
-    border: 5px solid whitesmoke;
+    background-color: rgb(235, 63, 0);
+    border: 10px solid whitesmoke;
 }
 
 .project{
