@@ -4,36 +4,38 @@
     box-sizing: border-box;
 }
 
-h1{ color: whitesmoke;
-    width: 450px;
-    margin: auto;
-    font-size: 40px;
-    text-align: center;
+body{
     background-color: rgb(235, 63, 0);
-    border: 10px solid whitesmoke;
-}
-
-img{
-    width: 60px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .project{
-    border: 10px solid whitesmoke;
-    background-color: rgb(235, 63, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blanchedalmond;
-    width: 450px;
-    height: 450px;
-    font-size: 17px;
-    margin: auto;
-    padding: 0%;
-    bottom: auto;
+    width: 999px;
+    height: 633px;
+    background-color: rgb(154, 41, 0);
+}
+
+.relatorio{
+    color: whitesmoke;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: center;
+    padding: 9%;
+}
+
+h1{ color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    padding: 4%;
+}
+
+.motivation{
+    color: whitesmoke;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-size: 24px;
+    margin-left: 100%;
+    margin-top: -5%;
 }
 
 .bottom{
@@ -43,23 +45,27 @@ img{
 input[type="submit"]{
     padding: 3px 6px;
     font-size: 15px;
-    color: rgb(235, 63, 0);
-    border: 1px solid rgb(235, 63, 0);
+    color: rgb(154, 41, 0);
+    border: 1px solid rgb(154, 41, 0);
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 input[type="submit"]:hover{
-    background-color: rgb(235, 63, 0);
+    background-color: rgb(154, 41, 0);
     color: white;
     border: 2px solid white;
 }
 
 
 .askm{
-    text-align: center;
+    text-align: center
 }
 
-body{background-color: beige;
+img{
+    width: 160px;
+    display: block;
+    margin-left: 123.5%;
+    margin-top: -38%;
 }
