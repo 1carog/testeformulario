@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Cor e Fonte */
+    background: linear-gradient(120deg, #9b2c00, #c34800, #a53300); /* Seu fundo */
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px; /* Aumentei um pouco para destaque */
+
+    /* CENTRALIZAÇÃO FLEXBOX */
+    display: flex; /* 1. Habilita o Flexbox */
+    justify-content: center; /* 2. Centraliza o conteúdo horizontalmente */
+    align-items: center; /* 3. Centraliza o conteúdo verticalmente */
+    
+    /* Garante que o body ocupe a altura total da tela */
+    min-height: 100vh;
+    
+    /* Outras propriedades */
+    text-align: center; /* Garante que o texto DENTRO do bloco esteja centralizado */
+}

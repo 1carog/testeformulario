@@ -9,37 +9,43 @@
 
 </head>
 <body>
-      <div class="project">
-        <div class="relatorio">
-     <h1>Relatório Diário</h1>
-          <form method="post" action="https://api.sheetmonkey.io/form/2KCCvy36f37fkgHenCVykE">
-        Consultor(a): <input type="consultor(a)" name="consultor(a)">
-        <br>
-        <br>
+<div class="card">
+    <h1>Relatório Diário</h1>
+          <form method="post" action="https://api.sheetmonkey.io/form/4X9DrX5w3hM1xvK85QgBoS">
+    <form class="form-grid">
+      <div>
+        <label for="consultor">Consultor(a)</label>
+        <input type="text" id="consultor" name="Consultor(a)" placeholder="Seu nome" required>
+      </div>
 
-        Data: <input type="date" name="date">
-        <br>
-        <br>
+      <div>
+        <label for="data">Data</label>
+        <input type="date" id="data" name="Data" required>
+      </div>
 
-        Tickets: <input type="ticket" name="tickets">
-        <br>
-        <br>
+      <div>
+        <label for="tickets">Tickets</label>
+        <input type="number" id="tickets" name="Tickets" placeholder="Quantidade de pessoas que você atendeu" required>
+      </div>
 
-        TKT's Identificados: <input type="identificados" name="identificados">
-        <br>
-        <br>
+      <div>
+        <label for="tkt">TKT's Identificados</label>
+        <input type="number" id="tkt" name="Identificados" placeholder="Quantidade de pessoas que você cadastrou" required>
+      </div>
 
-        Porcentagem: <select name="porcentagem">
-           <option> </option>
-           <option>5%</option>
-           <option>10%</option>
-            <option>15%</option>
-           <option>20%</option>
-           <option>25%</option>
-           <option>30%</option>
-           <option>35%</option>
-           <option>40%</option>
-           <option>45%</option>
+      <div>
+        <label for="porcentagem">Porcentagem</label>
+        <select id="porcentagem" name="Porcentagem" required>
+          <option value="">Selecione</option>
+          <option>5%</option>
+          <option>10%</option>
+          <option>15%</option>
+          <option>20%</option>
+          <option>25%</option>
+          <option>30%</option>
+          <option>35%</option>
+          <option>40%</option>
+          <option>45%</option>
           <option>50%</option>
           <option>55%</option>
           <option>60%</option>
@@ -52,45 +58,40 @@
           <option>95%</option>
           <option>100%</option>
         </select>
-        <br>
-        <br>
+      </div>
 
-        Mobile: <input type="mobile" name="mobile">
-        <br>
-        <br>
+      <div>
+        <label for="mobile">Mobile</label>
+        <input type="text" id="mobile" name="Mobile" placeholder="Quantidade de venda que você fez no mobile" required>
+      </div>
 
-      <div class="askm">
-        Meta diária batida?
-        <br>
-        <select name="meta">
-          <option> </option>
+      <div>
+        <label for="meta">Meta diária batida?</label>
+        <select id="meta" name="Atingiu?" required>
+          <option value="">Selecione</option>
           <option>Sim</option>
           <option>Não</option>
         </select>
-        <br>
+      </div>
 
-        <!--<input type="radio" name="sim" value="sim"> Sim
-        <input type="radio" name="sim" value="sim"> Não
-        <br>
-        <br>
-        </div>-->
+      <!-- Emojis de Humor -->
+      <div class="humor-container">
+        <span class="humor-label">Como está seu humor hoje?</span>
+        <div class="emojis" id="emojis">
+          <span class="emoji" data-msg="Parece um dia difícil, mas calma, não é o fim do mundo. 😔">😡</span>
+          <span class="emoji" data-msg="Não está dos melhores, mas sei que vai melhorar! 😕">😕</span>
+          <span class="emoji" data-msg="Tudo sob controle, eu acho! 😐">😐</span>
+          <span class="emoji" data-msg="Bom humor, que felicidade! 🙂">🙂</span>
+          <span class="emoji" data-msg="Excelente! Continue espalhando boas vibrações, todos precisamos! 😁">😁</span>
+        </div>
+        <span id="humor-msg"></span>
+      </div>
 
-        <br> 
+      <button type="submit">Enviar</button>
+    </form>
+    </form>
+  </div>
 
-     <button id="meuBotao">
-        <input type="submit" name="submit">
-     </button>
-        <br>
-
-        <!--<div class="motivation">
-        <p>"O talento vence jogos, mas só o trabalho em equipe ganha campeonatos."</p>
-        <p>Michael Jordan</p>
-      </div>-->
-
-        <img src="img/natura_logo_branco.png" alt="logo natura">
-        </form>
-           </div>
-            </div>
 
       <script src="js/script.js" defer></script>      
 </body>
